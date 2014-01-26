@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStore.Web", "CryptoStore.Web\CryptoStore.Web.csproj", "{6A20D8EB-958A-4320-B425-9E79D41CA9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStore.Web.Tests", "CryptoStore.Web.Tests\CryptoStore.Web.Tests.csproj", "{8A5695B9-A206-4E27-8B34-59BCEE0B75A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStore.Data", "CryptoStore.Data\CryptoStore.Data.csproj", "{A8BA93C9-EFFE-4CDF-81F2-E12E26114D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStore.Entities", "CryptoStore.Entities\CryptoStore.Entities.csproj", "{0FCB3193-EB6A-4E1C-9BF7-C02510B1E93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStore.Repositories", "CryptoStore.Repositories\CryptoStore.Repositories.csproj", "{DEC48622-311A-4C4E-A05F-A1A83828481C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A20D8EB-958A-4320-B425-9E79D41CA9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A20D8EB-958A-4320-B425-9E79D41CA9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A20D8EB-958A-4320-B425-9E79D41CA9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A20D8EB-958A-4320-B425-9E79D41CA9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5695B9-A206-4E27-8B34-59BCEE0B75A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5695B9-A206-4E27-8B34-59BCEE0B75A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5695B9-A206-4E27-8B34-59BCEE0B75A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5695B9-A206-4E27-8B34-59BCEE0B75A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA93C9-EFFE-4CDF-81F2-E12E26114D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA93C9-EFFE-4CDF-81F2-E12E26114D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA93C9-EFFE-4CDF-81F2-E12E26114D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA93C9-EFFE-4CDF-81F2-E12E26114D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCB3193-EB6A-4E1C-9BF7-C02510B1E93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCB3193-EB6A-4E1C-9BF7-C02510B1E93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCB3193-EB6A-4E1C-9BF7-C02510B1E93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCB3193-EB6A-4E1C-9BF7-C02510B1E93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC48622-311A-4C4E-A05F-A1A83828481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC48622-311A-4C4E-A05F-A1A83828481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC48622-311A-4C4E-A05F-A1A83828481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC48622-311A-4C4E-A05F-A1A83828481C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
